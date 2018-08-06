@@ -17,51 +17,58 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
+.header {
+  background: #000;
+  grid-column: 2 / 4;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); }
+
 .daily {
   background: sienna;
   grid-column: 2 / 4;
-  grid-row: 8; }
+  grid-row: 9; }
 
 .finalfantasy {
   background: darkblue;
   grid-column: 2 / 4;
-  grid-row: 2; }
+  grid-row: 3; }
 
 .home {
   background: orangered;
   display: grid;
   grid-column: 2 / 4;
-  grid-row: 1;
+  grid-row: 2;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr); }
 
 .lalafell {
   background: #301030;
   grid-column: 2 / 4;
-  grid-row: 4; }
+  grid-row: 5; }
 
 .miqote {
   background: tan;
   grid-column: 2 / 4;
-  grid-row: 3; }
+  grid-row: 4; }
 
 .nightelf {
   background: darkmagenta;
   grid-column: 2 / 4;
-  grid-row: 7; }
+  grid-row: 8; }
 
 .primary {
   display: grid;
   grid-template-columns: 5rem 50rem 1fr 5rem;
-  grid-template-rows: repeat(8, 100vh);
+  grid-template-rows: 5rem repeat(8, 100vh);
   font-size: 2.5rem; }
 
 .troll {
   background: darkolivegreen;
   grid-column: 2 / 4;
-  grid-row: 6; }
+  grid-row: 7; }
 
 .wow {
   background: grey;
   grid-column: 2 / 4;
-  grid-row: 5; }
+  grid-row: 6; }
