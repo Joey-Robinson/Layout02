@@ -17,6 +17,16 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
+.daily {
+  background: sienna;
+  grid-column: 2 / 4;
+  grid-row: 4; }
+
+.finalfantasy {
+  background: darkblue;
+  grid-column: 2 / 4;
+  grid-row: 2; }
+
 .home {
   background: orangered;
   display: grid;
@@ -29,3 +39,8 @@ body {
   display: grid;
   grid-template-columns: 5rem 50rem 1fr 5rem;
   grid-template-rows: repeat(4, 100vh); }
+
+.wow {
+  background: grey;
+  grid-column: 2 / 4;
+  grid-row: 3; }
