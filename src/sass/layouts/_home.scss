@@ -32,7 +32,6 @@
         background: #333;
       }
       &__close {
-        @include buttonHover;
         text-align: center;
         color: black;
         font-size: 3rem;

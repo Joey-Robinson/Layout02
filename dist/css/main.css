@@ -11,6 +11,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  scroll-behavior: smooth;
   font-family: 'IBM Plex Serif', serif;
   background: #222;
   color: white;
@@ -102,11 +103,6 @@ a {
       .home-one__button:hover {
         background: #333; }
       .home-one__button__close {
-        outline: none;
-        border: none;
-        cursor: pointer;
-        box-shadow: .25rem .35rem black;
-        margin-bottom: .5rem;
         text-align: center;
         color: black;
         font-size: 3rem;
@@ -115,13 +111,6 @@ a {
         height: 5rem;
         justify-content: center;
         justify-self: center; }
-        .home-one__button__close:hover {
-          box-shadow: .5rem .7rem black;
-          transform: translateY(-0.5rem);
-          transition: all .3s; }
-        .home-one__button__close:active {
-          transform: translateY(0.1rem);
-          transition: all .3s; }
         .home-one__button__close:hover, .home-one__button__close:focus {
           color: #f0f0f0; }
     .home-one__modal {
