@@ -47,12 +47,6 @@ a {
     width: 7.7rem;
     height: 1rem; }
 
-.seven {
-  background: sienna;
-  grid-column: 2 / 4;
-  grid-row: 9 / 10;
-  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
-
 .five {
   background: darkolivegreen;
   grid-column: 2 / 4;
@@ -66,13 +60,18 @@ a {
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .home {
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black;
   background: darkcyan;
-  display: grid;
   grid-column: 2 / 4;
   grid-row: 2;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr); }
+  .home-one {
+    grid-row: 3;
+    grid-column: 3;
+    justify-self: center;
+    align-self: center; }
 
 .one {
   background: darkblue;
@@ -85,6 +84,12 @@ a {
   grid-template-columns: 5rem 50rem 1fr 5rem;
   grid-template-rows: 2.5rem repeat(8, 100vh) 2.5rem;
   font-size: 2.5rem; }
+
+.seven {
+  background: sienna;
+  grid-column: 2 / 4;
+  grid-row: 9 / 10;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .six {
   background: darkmagenta;

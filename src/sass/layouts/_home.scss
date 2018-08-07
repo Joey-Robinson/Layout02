@@ -1,9 +1,15 @@
 .home {
+  box-shadow: $darkness;
   background: darkcyan;
-  display: grid;
   grid-column: 2 / 4;
   grid-row: 2;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  box-shadow: $darkness;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  &-one {
+    grid-row: 3;
+    grid-column: 3;
+    justify-self: center;
+    align-self: center;
+  }
 }
