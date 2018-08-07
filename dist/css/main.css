@@ -48,20 +48,20 @@ a {
     height: 1rem; }
 
 .five {
-  background: darkolivegreen;
+  background: #003f00;
   grid-column: 2 / 4;
   grid-row: 7;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .four {
-  background: grey;
+  background: #005900;
   grid-column: 2 / 4;
   grid-row: 6;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .home {
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black;
-  background: darkcyan;
+  background: #00bf00;
   grid-column: 2 / 4;
   grid-row: 2;
   display: grid;
@@ -74,7 +74,7 @@ a {
     align-self: center; }
 
 .one {
-  background: darkblue;
+  background: #00a500;
   grid-column: 2 / 4;
   grid-row: 3;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
@@ -86,25 +86,25 @@ a {
   font-size: 2.5rem; }
 
 .seven {
-  background: sienna;
+  background: #000c00;
   grid-column: 2 / 4;
   grid-row: 9 / 10;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .six {
-  background: darkmagenta;
+  background: #002600;
   grid-column: 2 / 4;
   grid-row: 8;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .two {
-  background: tan;
+  background: #008c00;
   grid-column: 2 / 4;
   grid-row: 4;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .three {
-  background: #301030;
+  background: #007200;
   grid-column: 2 / 4;
   grid-row: 5;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
