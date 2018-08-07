@@ -4,9 +4,61 @@
   grid-column: 2 / 4;
   grid-row: 2;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 5rem 1fr 5rem;
   &-animate {
-    grid-column: 3;
+    grid-column: 2;
+    text-align: center;
   }
+  &-one {
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    word-break: break-all;
+    width: 2rem;
+    line-height: 5;
+    text-transform: uppercase;
+  } // &-two {
+  //   grid-column: 1;
+  //   grid-row: 2;
+  // } 
+  // &-three {
+  //   background: #222;
+  //   grid-column: 3;
+  //   grid-row: 3;
+  // }
+  // &-four {
+  //   background: #222;
+  //   grid-column: 4;
+  //   grid-row: 4;
+  // }
+  // &-five {
+  //   background: #222;
+  //   grid-column: 5;
+  //   grid-row: 5;
+  // }
+  // &-six {
+  //   background: #222;
+  //   grid-column: 5;
+  //   grid-row: 1;
+  // }
+  // &-seven {
+  //   background: #222;
+  //   grid-column: 4;
+  //   grid-row: 2;
+  // }
+  // &-eight {
+  //   background: #222;
+  //   grid-column: 2;
+  //   grid-row: 4;
+  // }
+  // &-nine {
+  //   background: #222;
+  //   grid-column: 1;
+  //   grid-row: 5;
+  // }
+  // &-ten {
+  //   background: #222;
+  //   grid-column: 1;
+  //   grid-row: 3;
+  // }
 }

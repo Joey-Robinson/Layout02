@@ -24,8 +24,8 @@
     &__button {
       @include buttonHover;
       background: coral;
-      width: 10rem;
-      height: 10rem;
+      width: 15rem;
+      height: 5rem;
       color: $headerWhite;
       &:hover {
         background: #333;
