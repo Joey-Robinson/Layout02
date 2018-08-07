@@ -12,7 +12,9 @@
     justify-self: center;
     align-self: center;
     &__content {
-      background-color: #f4f4f4;
+      display: grid;
+      grid-template-rows: 1fr 5rem;
+      background-color: $headerWhite;
       color: black;
       margin: 20% auto;
       padding: 20px;
@@ -20,6 +22,8 @@
       box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
     }
     &__button {
+      @include buttonHover;
+      grid-row: 2;
       background: coral;
       width: 10rem;
       height: 10rem;
@@ -28,12 +32,18 @@
         background: #333;
       }
       &__close {
-        color: #ccc;
-        float: right;
+        @include buttonHover;
+        text-align: center;
+        color: black;
         font-size: 3rem;
+        border-radius: 5rem;
+        width: 20rem;
+        height: 5rem;
+        justify-content: center;
+        justify-self: center;
         &:hover,
         &:focus {
-          color: black;
+          color: $headerWhite;
           text-decoration: none;
           cursor: pointer;
         }

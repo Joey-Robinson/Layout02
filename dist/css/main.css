@@ -21,11 +21,6 @@ a {
   text-decoration: none;
   color: #f0f0f0; }
 
-button {
-  outline: none;
-  border: none;
-  cursor: pointer; }
-
 .footer {
   grid-column: 2 / 4;
   grid-row: 10;
@@ -78,25 +73,57 @@ button {
     justify-self: center;
     align-self: center; }
     .home-one__content {
-      background-color: #f4f4f4;
+      display: grid;
+      grid-template-rows: 1fr 5rem;
+      background-color: #f0f0f0;
       color: black;
       margin: 20% auto;
       padding: 20px;
       width: 70%;
       box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17); }
     .home-one__button {
+      outline: none;
+      border: none;
+      cursor: pointer;
+      box-shadow: .25rem .35rem black;
+      margin-bottom: .5rem;
+      grid-row: 2;
       background: coral;
       width: 10rem;
       height: 10rem;
       color: #f0f0f0; }
       .home-one__button:hover {
+        box-shadow: .5rem .7rem black;
+        transform: translateY(-0.5rem);
+        transition: all .3s; }
+      .home-one__button:active {
+        transform: translateY(0.1rem);
+        transition: all .3s; }
+      .home-one__button:hover {
         background: #333; }
       .home-one__button__close {
-        color: #ccc;
-        float: right;
-        font-size: 3rem; }
+        outline: none;
+        border: none;
+        cursor: pointer;
+        box-shadow: .25rem .35rem black;
+        margin-bottom: .5rem;
+        text-align: center;
+        color: black;
+        font-size: 3rem;
+        border-radius: 5rem;
+        width: 20rem;
+        height: 5rem;
+        justify-content: center;
+        justify-self: center; }
+        .home-one__button__close:hover {
+          box-shadow: .5rem .7rem black;
+          transform: translateY(-0.5rem);
+          transition: all .3s; }
+        .home-one__button__close:active {
+          transform: translateY(0.1rem);
+          transition: all .3s; }
         .home-one__button__close:hover, .home-one__button__close:focus {
-          color: black;
+          color: #f0f0f0;
           text-decoration: none;
           cursor: pointer; }
     .home-one__modal {
