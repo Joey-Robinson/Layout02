@@ -3,4 +3,59 @@
   grid-column: 2 / 4;
   grid-row: 3;
   box-shadow: $darkness;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  &-three {
+    grid-row: 3;
+    grid-column: 3;
+    justify-self: center;
+    align-self: center;
+    &__content {
+      display: grid;
+      grid-template-rows: 1fr 5rem;
+      background-color: $headerWhite;
+      color: black;
+      margin: 20% auto;
+      padding: 2rem;
+      width: 70%;
+      box-shadow: 0 .5rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .7rem 2rem 0 rgba(0, 0, 0, 0.17);
+    }
+    &__button {
+      @include buttonHover;
+      background: coral;
+      width: 10rem;
+      height: 10rem;
+      color: $headerWhite;
+      &:hover {
+        background: #333;
+      }
+      &__close {
+        grid-row: 2;
+        text-align: center;
+        color: black;
+        font-size: 3rem;
+        border-radius: 5rem;
+        width: 20rem;
+        height: 5rem;
+        justify-content: center;
+        justify-self: center;
+        &:hover,
+        &:focus {
+          color: $headerWhite;
+        }
+      }
+    }
+    &__modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
 }

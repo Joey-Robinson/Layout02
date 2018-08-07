@@ -136,12 +136,21 @@ a {
   grid-template-rows: repeat(5, 1fr); }
   .home-animate {
     grid-column: 3; }
-  .home-one {
+
+.one {
+  background: #00a500;
+  grid-column: 2 / 4;
+  grid-row: 3;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr); }
+  .one-three {
     grid-row: 3;
     grid-column: 3;
     justify-self: center;
     align-self: center; }
-    .home-one__content {
+    .one-three__content {
       display: grid;
       grid-template-rows: 1fr 5rem;
       background-color: #f0f0f0;
@@ -150,27 +159,27 @@ a {
       padding: 2rem;
       width: 70%;
       box-shadow: 0 0.5rem 0.8rem 0 rgba(0, 0, 0, 0.2), 0 0.7rem 2rem 0 rgba(0, 0, 0, 0.17); }
-    .home-one__button {
+    .one-three__button {
       outline: none;
       border: none;
       cursor: pointer;
       box-shadow: .25rem .35rem black;
       margin-bottom: .5rem;
-      grid-row: 2;
       background: coral;
       width: 10rem;
       height: 10rem;
       color: #f0f0f0; }
-      .home-one__button:hover {
+      .one-three__button:hover {
         box-shadow: .5rem .7rem black;
         transform: translateY(-0.5rem);
         transition: all .3s; }
-      .home-one__button:active {
+      .one-three__button:active {
         transform: translateY(0.1rem);
         transition: all .3s; }
-      .home-one__button:hover {
+      .one-three__button:hover {
         background: #333; }
-      .home-one__button__close {
+      .one-three__button__close {
+        grid-row: 2;
         text-align: center;
         color: black;
         font-size: 3rem;
@@ -179,9 +188,9 @@ a {
         height: 5rem;
         justify-content: center;
         justify-self: center; }
-        .home-one__button__close:hover, .home-one__button__close:focus {
+        .one-three__button__close:hover, .one-three__button__close:focus {
           color: #f0f0f0; }
-    .home-one__modal {
+    .one-three__modal {
       display: none;
       position: fixed;
       z-index: 1;
@@ -191,12 +200,6 @@ a {
       width: 100%;
       overflow: auto;
       background-color: rgba(0, 0, 0, 0.5); }
-
-.one {
-  background: #00a500;
-  grid-column: 2 / 4;
-  grid-row: 3;
-  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .primary {
   display: grid;

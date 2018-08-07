@@ -12,12 +12,12 @@ const outsideClick = (event) => {
     modal.style.display = 'none';
   }
 }
-const modal = document.getElementById('home-one__modal');
-const modalBtn = document.getElementById('home-one__button');
-const closeBtn = document.getElementsByClassName('home-one__button__close')[0];
+const modal = document.getElementById('one-three__modal');
+const modalButton = document.getElementById('one-three__button');
+const closeButton = document.getElementsByClassName('one-three__button__close')[0];
 
-modalBtn.addEventListener('click', openModal);
-closeBtn.addEventListener('click', closeModal);
+modalButton.addEventListener('click', openModal);
+closeButton.addEventListener('click', closeModal);
 window.addEventListener('click', outsideClick);
 
 // Visibility Toggle
