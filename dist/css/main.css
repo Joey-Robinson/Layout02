@@ -40,35 +40,41 @@ a {
 .daily {
   background: sienna;
   grid-column: 2 / 4;
-  grid-row: 9; }
+  grid-row: 9;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .finalfantasy {
   background: darkblue;
   grid-column: 2 / 4;
-  grid-row: 3; }
+  grid-row: 3;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .home {
-  background: orangered;
+  background: darkcyan;
   display: grid;
   grid-column: 2 / 4;
   grid-row: 2;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-rows: repeat(3, 1fr);
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .lalafell {
   background: #301030;
   grid-column: 2 / 4;
-  grid-row: 5; }
+  grid-row: 5;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .miqote {
   background: tan;
   grid-column: 2 / 4;
-  grid-row: 4; }
+  grid-row: 4;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .nightelf {
   background: darkmagenta;
   grid-column: 2 / 4;
-  grid-row: 8; }
+  grid-row: 8;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .primary {
   display: grid;
@@ -79,9 +85,11 @@ a {
 .troll {
   background: darkolivegreen;
   grid-column: 2 / 4;
-  grid-row: 7; }
+  grid-row: 7;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
 
 .wow {
   background: grey;
   grid-column: 2 / 4;
-  grid-row: 6; }
+  grid-row: 6;
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }

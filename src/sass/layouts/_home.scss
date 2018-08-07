@@ -1,8 +1,9 @@
 .home {
-  background: orangered;
+  background: darkcyan;
   display: grid;
   grid-column: 2 / 4;
   grid-row: 2;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  box-shadow: $darkness;
 }
