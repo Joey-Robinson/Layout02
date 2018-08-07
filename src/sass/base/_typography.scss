@@ -9,13 +9,11 @@ a {
 .home-animate__first {
   opacity: 0;
   animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
-  animation-delay: 0;
 }
 
-.animate-second {
-  animation-delay: 500ms;
-}
-
-.animate-third {
-  animation-delay: 1s;
-}
+// .animate-second {
+//   animation-delay: 500ms;
+// }
+// .animate-third {
+//   animation-delay: 1s;
+// }
