@@ -21,6 +21,11 @@ a {
   text-decoration: none;
   color: #f0f0f0; }
 
+button {
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
 .footer {
   grid-column: 2 / 4;
   grid-row: 10;
@@ -72,6 +77,38 @@ a {
     grid-column: 3;
     justify-self: center;
     align-self: center; }
+    .home-one__content {
+      background-color: #f4f4f4;
+      color: black;
+      margin: 20% auto;
+      padding: 20px;
+      width: 70%;
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17); }
+    .home-one__button {
+      background: coral;
+      width: 10rem;
+      height: 10rem;
+      color: #f0f0f0; }
+      .home-one__button:hover {
+        background: #333; }
+      .home-one__button__close {
+        color: #ccc;
+        float: right;
+        font-size: 3rem; }
+        .home-one__button__close:hover, .home-one__button__close:focus {
+          color: black;
+          text-decoration: none;
+          cursor: pointer; }
+    .home-one__modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5); }
 
 .one {
   background: #00a500;
