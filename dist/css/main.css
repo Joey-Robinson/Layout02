@@ -123,9 +123,7 @@ a {
           transform: translateY(0.1rem);
           transition: all .3s; }
         .home-one__button__close:hover, .home-one__button__close:focus {
-          color: #f0f0f0;
-          text-decoration: none;
-          cursor: pointer; }
+          color: #f0f0f0; }
     .home-one__modal {
       display: none;
       position: fixed;
