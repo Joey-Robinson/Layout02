@@ -5,31 +5,22 @@
   grid-row: 2;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 10rem repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   &-animate {
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 2;
     text-align: center;
     justify-self: center;
-  }
-  &-one {
-    grid-column: 1 / span 4;
-    grid-row: 1; // &__typewritter {
-    //   position: absolute;
-    //   top: 50%;
-    //   width: 1fr;
-    //   margin: 0 auto;
-    //   border-right: 2px solid rgba(255, 255, 255, .75);
-    //   text-align: center;
-    //   white-space: nowrap;
-    //   overflow: hidden;
-    //   transform: translateY(-50%);
-    //   animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
-    // }
-  } // &-two {
+    &__first {
+      animation: reveal 2.5s cubic-bezier(0, 1, 0.5, 1) 1;
+    }
+  } // &-one {
+  //   grid-column: 1 / span 5;
+  //   grid-row: 1;
+  // } // &-two {
   //   grid-column: 1;
   //   grid-row: 2;
-  // } 
+  // }
   // &-three {
   //   background: #222;
   //   grid-column: 3;
