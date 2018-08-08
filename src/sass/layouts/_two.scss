@@ -3,23 +3,31 @@
   grid-row: 4;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   background: $scalingGreenThree;
   box-shadow: $darkness;
-  text-align: center;
   &-one {
-    grid-column: 1;
+    grid-column: 1 / span 2;
     grid-row: 1;
     @include insetBorder;
+    & p {
+      padding: 1rem 1rem 2rem 1rem;
+    }
   }
   &-two {
     grid-column: 2;
     grid-row: 2;
     @include insetBorder;
+    & p {
+      padding: 1rem 1rem 0 2rem;
+    }
   }
   &-three {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
     @include insetBorder;
+    & p {
+      padding: 1rem 1rem 0 2rem;
+    }
   }
 }

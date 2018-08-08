@@ -238,25 +238,30 @@ a {
   grid-row: 4;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   background: #008c00;
-  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black;
-  text-align: center; }
+  box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black; }
   .two-one {
-    grid-column: 1;
+    grid-column: 1 / span 2;
     grid-row: 1;
     box-shadow: inset 0 0 1rem #000;
     border-radius: 2rem; }
+    .two-one p {
+      padding: 1rem 1rem 2rem 1rem; }
   .two-two {
     grid-column: 2;
     grid-row: 2;
     box-shadow: inset 0 0 1rem #000;
     border-radius: 2rem; }
+    .two-two p {
+      padding: 1rem 1rem 0 2rem; }
   .two-three {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
     box-shadow: inset 0 0 1rem #000;
     border-radius: 2rem; }
+    .two-three p {
+      padding: 1rem 1rem 0 2rem; }
 
 .three {
   background: #007200;
