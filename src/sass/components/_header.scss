@@ -18,6 +18,7 @@
     &:hover {
       color: black;
       background: $headerWhite;
+      transition: all .75s cubic-bezier(.02, .48, .63, .12);
     }
   }
 }
